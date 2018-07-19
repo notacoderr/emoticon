@@ -2,13 +2,11 @@
 
 namespace KL;
 
-use pocketmine\command\{Command, CommandSender, ConsoleCommandSender};
-use pocketmine\item\Item;
+use pocketmine\command\{Command, CommandSender};
 use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
-use pocketmine\event\server\DataPacketReceiveEvent;
 
 use pocketmine\utils\TextFormat as TF;
 
