@@ -35,7 +35,7 @@ class EI extends PluginBase implements Listener
         if (isset($data[0])){
 		$button = $data[0];
 		$emoticon = $this->getEmotes()[$button];
-		$this->Announce("• " . TF::BOLD . TF::AQUA . $player->getDisplayName() . TF::RESET . TF::BLACK . " >§c " . $emoticon);
+		$this->Announce("• §l§b" . $player->getDisplayName() . " §r§0>§c " . $emoticon);
 	}
 		
 	});
@@ -59,7 +59,7 @@ class EI extends PluginBase implements Listener
 	  	switch( strtolower ( $cmd->getName() ))
 		{
 				
-            		case "ei": case "\":
+            		case "ei":
 				$this->sendMainMenu($sender);
            		break;
       		}
