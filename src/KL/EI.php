@@ -59,10 +59,10 @@ class EI extends PluginBase implements Listener
            		break;
       		}
 	    return true;
-   }
+    }
    
-   private function getEmotes() : array
-   {
+    public function getEmotes() : array
+    {
    	$emotes = array(
 			"( ͡° ͜ʖ ͡°)", "∠( ᐛ 」∠)＿", "(ﾟ⊿ﾟ)", "ᕕ( ᐛ )ᕗ", "_へ__(‾◡◝ )>",
 			"(/^▽^)/", "( ᐛ )و", "( ´ ▽ ` )ﾉ", "(´∇ﾉ｀*)ノ", "⁽ˇ́˙̫ˇ̀˵⁾", "(◡‿◡✿)", "✌(-‿-)✌",
@@ -71,6 +71,6 @@ class EI extends PluginBase implements Listener
 			"(´-ι_-｀)"
 			);
 	return $emotes;
-   }
+    }
 
 }
