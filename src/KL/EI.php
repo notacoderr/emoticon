@@ -19,6 +19,9 @@ class EI extends PluginBase implements Listener
     {
         $this->formapi = $this->getServer()->getPluginManager()->getPlugin('FormAPI');
         $this->getLogger()->info("Enabling...");
+	    
+	$this->saveResource('main.yml');
+        $this->cfg = new Config($this->getDataFolder() . "main.yml", CONFIG::YAML);
     }
 	
     private function Announce(string $c) : void
@@ -65,14 +68,7 @@ class EI extends PluginBase implements Listener
    
     public function getEmotes() : array
     {
-   	$emotes = array(
-			"( ͡° ͜ʖ ͡°)", "∠( ᐛ 」∠)＿", "(ﾟ⊿ﾟ)", "ᕕ( ᐛ )ᕗ", "_へ__(‾◡◝ )>",
-			"(/^▽^)/", "( ᐛ )و", "( ´ ▽ ` )ﾉ", "(´∇ﾉ｀*)ノ", "⁽ˇ́˙̫ˇ̀˵⁾", "(◡‿◡✿)", "✌(-‿-)✌",
-			"┌∩┐(ಠ_ಠ)┌∩┐", "(；¬д¬)", "(⁎˃ᆺ˂)", "( ｰ̀εｰ́ )", "(꒪⌓꒪)", "(ーー;)", "(*´﹃｀*)",
-			"(º﹃º )", "ɖී؀ීϸ", "＼(-_- )", "(￣^￣)ゞ", "ʕ•͡ɛ•͡ʼʼʔ", "(๑ↀᆺↀ๑)", "(.﹒︣︿﹒︣.)",
-			"(´-ι_-｀)"
-			);
-	return $emotes;
+	return $this->cfg->getNested("Emotes");
     }
 
 }
