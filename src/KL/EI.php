@@ -26,7 +26,7 @@ class EI extends PluginBase implements Listener
 	
     private function Announce(string $c) : void
     {
-        $this->getServer()->broadcast($c);
+        $this->getServer()->broadcastMessage($c);
     }
 
     public function sendMainMenu(Player $player)
