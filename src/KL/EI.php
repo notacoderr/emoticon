@@ -7,7 +7,7 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
-
+use pocketmine\utils\Config;
 use pocketmine\utils\TextFormat as TF;
 
 class EI extends PluginBase implements Listener
