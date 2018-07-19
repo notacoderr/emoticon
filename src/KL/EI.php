@@ -12,7 +12,7 @@ use pocketmine\event\server\DataPacketReceiveEvent;
 
 use pocketmine\utils\TextFormat as TF;
 
-class CI extends PluginBase implements Listener
+class EI extends PluginBase implements Listener
 {   
     
     public $formapi;
