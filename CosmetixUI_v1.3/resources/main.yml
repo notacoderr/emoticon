@@ -1,0 +1,112 @@
+particles:
+  main: 'https://cdn3.iconfinder.com/data/icons/science-volume-3-2/48/109-128.png'
+  critical: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/a/ad/Particle_crit.png/300px-Particle_crit.png'
+  dust: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/d/d9/Particle_blockdust.png/300px-Particle_blockdust.png'
+  drip_lava: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/2/2a/Particle_dripLava.png/300px-Particle_dripLava.png'
+  drip_water: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/8/8c/Particle_dripWater.png/300px-Particle_dripWater.png'
+  flame: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/e/e6/Particle_largesmoke.png/300px-Particle_largesmoke.png'
+  mob_flame: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/e/e6/Particle_largesmoke.png/300px-Particle_largesmoke.png'
+  totem: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/6/6d/Particle_talisman.png/300px-Particle_talisman.png'
+  portal: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/d/d6/Particle_portal.png/300px-Particle_portal.png'
+  heart: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/d/d2/Particle_heart.png/300px-Particle_heart.png'
+  note: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/e/ec/Particle_note.png/300px-Particle_note.png'
+  rising_red_dust: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/3/35/Particle_reddust.png/300px-Particle_reddust.png'
+  spit: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/5/5a/Particle_spit.png/300px-Particle_spit.png'
+  dragons_breath: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/a/a6/Particle_dragonbreath.png/300px-Particle_dragonbreath.png'
+  huge_explode: 'https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/thumb/1/15/Particle_hugeexplosion.png/300px-Particle_hugeexplosion.png'
+
+size:
+  main: 'https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-079_man_people_height-128.png'
+  ant: 'https://cdn0.iconfinder.com/data/icons/insects-8/50/Insects_Filled-09-128.png'
+  fairy: 'https://cdn3.iconfinder.com/data/icons/people-professions/512/fairy_B-128.png'
+  baby: 'https://cdn2.iconfinder.com/data/icons/eldorado-navigation/40/baby_child-128.png'
+  kid: 'https://cdn0.iconfinder.com/data/icons/life-insurance-8/64/x-18-128.png'
+  normal: 'https://cdn4.iconfinder.com/data/icons/unigrid-human/46/011_boy_teenager_human-128.png'
+  giant: 'https://cdn3.iconfinder.com/data/icons/people-69/100/Giant-128.png'
+  titan: 'https://cdn3.iconfinder.com/data/icons/people-69/100/Giant-128.png'
+
+prefix: 'https://cdn3.iconfinder.com/data/icons/business-management-long-shadow-flat-1/33/name_card-128.png'
+roles-image: 'https://cdn2.iconfinder.com/data/icons/basic-flat-icon-set/128/theatre-128.png'
+
+roles:
+  - Assassin
+  - Ai
+  - Alien
+  
+  - Beautiful
+  - Butler
+  - Baby
+  - Broken
+  
+  - Cute
+  - Chick
+  - Cop
+  - Cook
+  - Cancer
+
+  - Demon
+  - Derp
+  - Debonaire
+  
+  - Emo
+  
+  - Gangsta
+  - Ghoul
+  - God
+  - Genius
+  
+  - Hater
+  - Hacker
+  - Hero
+  - High
+  - Hitman
+  - Hot
+  
+  - Immortal
+  
+  - Jackass
+  
+  - KPOP
+  
+  - LGBT
+  - Loner
+  
+  - Mafia
+  - Muse
+  - Musician
+  - Magician
+  - Mime
+  
+  - Nurse
+  - Ninja
+  - Navy
+  - Noble
+  - Neko
+  - Nerd
+  
+  - Pet
+  - Pirate
+  - Principal
+  - Prince
+  - Princess
+  
+  - Saiyan
+  - Sailor
+  - Student
+  - Scientist
+  - Sexy
+  - Satan
+  - Single
+  - Senpai
+  - Soldier
+  
+  - Teacher
+  - Troll
+  - Taken
+  
+  - Villain
+  
+  - Warrior
+  - Wolf
+  
+  - Zombie
